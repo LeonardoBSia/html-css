@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('lovelarry.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'love';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima sit, dolorum aspernatur laudantium sint odio doloremque quas necessitatibus quam. Sint, dolorem magnam recusandae impedit earum neque ea nisi quidem nulla.</p>
+</body>
+</html>
