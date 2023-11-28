@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed; 
+
+            background: black url(imagens/wallpaper002.jpg) center center repeat cover fixed;
             
             /* Cover: Cobre toda a tela mesmo que precise dar um zoom, e cortar a imagem.
 
             Contain: mostra 100% da imagem, porém não cobre a tela toda.
             
             na maioria dos casos, o contain é o mais indicado. Porém depende.*/
+
+            /*Shorthand - Background
+
+                Color > image > position > repeat > [size] > attachment
+                o size não funciona no shorthand :(
+            */
         }
 
         main{
