@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header {
+    color: blue;
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px;    
+}
+
+.links{
+    float: right;
+    padding-right: 15px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    margin-top: -30px;
+}
+
+nav#menu > a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+}
+
+nav#menu > a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+h1.hello{
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-size: 60px;
+}
+
+
+span {
+    color: blue;
+}
+
+.backend {
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 35px;
+}
+
+p {
+    padding-left: 10px;
+    padding-top: 1px;
+    width: 500px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+div.texto{
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+div.img {
+    float: right;
+    padding: 15px;
+    display: flex;
+    margin-right: 100px;
+}
+
+img#perfil {
+    width: 500px;
+    border-radius: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+#linkedin{
+    margin-top: 30px;
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#whats{
+    margin-top: 30px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+#github{
+    margin-top: 30px;
+    width: 60px;
+}
